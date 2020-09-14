@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: Cloud-Register
+  profiles:
+    include:
+      - security
+      - eureka
+      - tomcat

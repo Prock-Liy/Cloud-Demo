@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: Cloud-Auth
+  profiles:
+    include:
+      - eureka
+      - tomcat
+      - redis
