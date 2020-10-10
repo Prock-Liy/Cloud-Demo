@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>cloud</artifactId>
+        <groupId>pers.liy</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../cloud/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>cloud-server</artifactId>
+    <packaging>pom</packaging>
+    <name>Cloud-Server</name>
+    <description>Cloud-Server服务提供模块</description>
+
+    <modules>
+        <module>server-system</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>pers.liy</groupId>
+            <artifactId>cloud-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>

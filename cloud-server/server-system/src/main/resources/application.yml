@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Server-System
+  profiles:
+    include:
+      - eureka
+      - tomcat

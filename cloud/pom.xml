@@ -27,6 +27,7 @@
         <module>../cloud-register</module>
         <module>../cloud-auth</module>
         <module>../cloud-gateway</module>
+        <module>../cloud-server</module>
     </modules>
 
     <dependencyManagement>
