@@ -2,87 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8c3af0-77cd-482c-bf7b-c3f48d657ed9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/properties/AuthProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/properties/ClientsProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/translator/CloudWebResponseExceptionTranslator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/resources/cloud-auth.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/annotation/EnableCloudAuthExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/configure/CloudAuthExceptionConfigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/handler/BaseExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/handler/CloudAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/handler/CloudAuthExceptionEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/utils/CloudUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway/src/main/java/pers/liy/filter/CloudGatewayErrorFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/CloudAuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/CloudAuthApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/configure/AuthorizationServerConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/configure/AuthorizationServerConfigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/configure/ResourceServerConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/configure/ResourceServerConfigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/controller/SecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/controller/SecurityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/CloudAuthApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/CloudAuthApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/configure/AuthorizationServerConfigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/configure/AuthorizationServerConfigure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/configure/ResourceServerConfigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/configure/ResourceServerConfigure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/controller/SecurityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/controller/SecurityController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/$CACHE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_springframework_spring_aop_5_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_springframework_spring_beans_5_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_springframework_spring_context_5_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_springframework_spring_core_5_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_springframework_spring_expression_5_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_springframework_spring_test_5_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/cloud-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/cloud-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/entity/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/entity/CloudResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/target/classes/pers/liy/entity/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/src/main/resources/application-zull.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/src/main/resources/application-zull.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server/server-system/src/main/java/pers/liy/server/system/ServerSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server/server-system/src/main/java/pers/liy/server/system/ServerSystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server/server-system/src/main/java/pers/liy/server/system/configure/ServerSystemResourceServerConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server/server-system/src/main/java/pers/liy/server/system/configure/ServerSystemResourceServerConfigure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +169,7 @@
       <workItem from="1600653459824" duration="199000" />
       <workItem from="1602295013037" duration="1330000" />
       <workItem from="1602296736457" duration="4591000" />
-      <workItem from="1602307006907" duration="3739000" />
+      <workItem from="1602307006907" duration="4875000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1600096716338</created>
@@ -272,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602304515939</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feature: 添加异常处理已经参数化配置auth相关类">
+      <created>1602310829591</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602310829591</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +209,8 @@
     <MESSAGE value="初始化" />
     <MESSAGE value="添加网关，auth" />
     <MESSAGE value="feature: 添加server服务模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: 添加server服务模块" />
+    <MESSAGE value="feature: 添加异常处理已经参数化配置auth相关类" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: 添加异常处理已经参数化配置auth相关类" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="142" key="#Project_Structure" timestamp="1600169261551">
@@ -306,68 +234,68 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="370" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1602308794641" />
-    <state x="314" y="0" key="CommitChangelistDialog2" timestamp="1602304515123">
+    <state x="314" y="0" key="CommitChangelistDialog2" timestamp="1602310826638">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="314" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602304515123" />
+    <state x="314" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602310826638" />
     <state x="392" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600096715253" />
-    <state x="214" y="71" key="DiffContextDialog" timestamp="1602295036928">
+    <state x="214" y="71" key="DiffContextDialog" timestamp="1602310767316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="214" y="71" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1602295036928" />
+    <state x="214" y="71" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1602310767316" />
     <state x="591" y="207" key="FileChooserDialogImpl" timestamp="1602303846172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="591" y="207" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602303846172" />
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600096526830" />
-    <state width="1492" height="272" key="GridCell.Tab.0.bottom" timestamp="1602310060270">
+    <state width="1492" height="144" key="GridCell.Tab.0.bottom" timestamp="1602311291796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="272" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602310060270" />
+    <state width="1492" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602311291796" />
     <state width="1877" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
-    <state width="1492" height="272" key="GridCell.Tab.0.center" timestamp="1602310060270">
+    <state width="1492" height="144" key="GridCell.Tab.0.center" timestamp="1602311291796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="272" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602310060270" />
+    <state width="1492" height="144" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602311291796" />
     <state width="1877" height="229" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
-    <state width="1492" height="272" key="GridCell.Tab.0.left" timestamp="1602310060270">
+    <state width="1492" height="144" key="GridCell.Tab.0.left" timestamp="1602311291796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="272" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602310060270" />
+    <state width="1492" height="144" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602311291796" />
     <state width="1877" height="229" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
-    <state width="1492" height="272" key="GridCell.Tab.0.right" timestamp="1602310060270">
+    <state width="1492" height="144" key="GridCell.Tab.0.right" timestamp="1602311291796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="272" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602310060270" />
+    <state width="1492" height="144" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602311291796" />
     <state width="1877" height="229" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
-    <state width="1492" height="272" key="GridCell.Tab.1.bottom" timestamp="1602310077450">
+    <state width="1492" height="144" key="GridCell.Tab.1.bottom" timestamp="1602311291797">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="272" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602310077450" />
+    <state width="1492" height="144" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602311291797" />
     <state width="1877" height="229" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
-    <state width="1492" height="272" key="GridCell.Tab.1.center" timestamp="1602310077450">
+    <state width="1492" height="144" key="GridCell.Tab.1.center" timestamp="1602311291796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="272" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602310077450" />
+    <state width="1492" height="144" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602311291796" />
     <state width="1877" height="229" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
-    <state width="1492" height="272" key="GridCell.Tab.1.left" timestamp="1602310077450">
+    <state width="1492" height="144" key="GridCell.Tab.1.left" timestamp="1602311291796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="272" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602310077450" />
+    <state width="1492" height="144" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602311291796" />
     <state width="1877" height="229" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
-    <state width="1492" height="272" key="GridCell.Tab.1.right" timestamp="1602310077450">
+    <state width="1492" height="144" key="GridCell.Tab.1.right" timestamp="1602311291796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="272" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602310077450" />
+    <state width="1492" height="144" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602311291796" />
     <state width="1877" height="229" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
     <state x="440" y="95" key="SettingsEditor" timestamp="1600096700306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600096700306" />
-    <state x="442" y="197" key="Vcs.Push.Dialog.v2" timestamp="1602304523558">
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2" timestamp="1602310831569">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602304523558" />
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602310831569" />
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600096718686" />
     <state x="430" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1600653529256">
       <screen x="0" y="0" width="1536" height="824" />
