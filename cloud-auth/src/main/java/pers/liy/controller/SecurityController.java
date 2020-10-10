@@ -5,7 +5,7 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pers.liy.entity.Response;
+import pers.liy.entity.CloudResponse;
 
 import javax.annotation.Resource;
 import javax.security.auth.message.AuthException;
@@ -35,10 +35,10 @@ public class SecurityController {
      * @throws AuthException
      */
     @DeleteMapping("sigout")
-    public Response signout(HttpServletRequest request) throws AuthException {
+    public CloudResponse signout(HttpServletRequest request) throws AuthException {
         String authorization = request.getHeader("Authorization");
         String token = StringUtils.replace(authorization, "bearer ", "");
-        Response response = new Response();
+        CloudResponse response = new CloudResponse();
         if (!consumerTokenServices.revokeToken(token)) {
             throw new AuthException("退出登录失败");
         }
