@@ -7,7 +7,7 @@ eureka:
     ## 表示是否从Eureka服务端获取服务信息，因为这里是单节点的Eureka服务端，并不需要从别的Eureka服务端同步服务信息，所以这里设置为false
     fetch-registry: false
     ## 微服务更新实例信息的变化到Eureka服务端的间隔时间，单位为秒，这里指定为20秒（这就是微服务启动后，要过一会才能注册到Eureka服务端的原因）
-    instance-info-replication-interval-seconds: 20
+    instance-info-replication-interval-seconds: 30
     ## 指定Eureka服务端的地址，这里为当前项目地址，即 http://localhost:8001/register/eureka/
     serviceUrl:
       defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@${eureka.instance.hostname}:${server.port}${server.servlet.context-path}/eureka/
