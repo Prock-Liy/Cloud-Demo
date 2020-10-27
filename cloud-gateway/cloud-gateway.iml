@@ -43,7 +43,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.1.8.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.23" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.1.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.9" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.9" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.9" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.9" level="project" />
@@ -63,7 +62,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.1.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-oauth2:2.1.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.1.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
     <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-core:2.3.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-impl:2.3.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.3.4.RELEASE" level="project" />
@@ -117,7 +115,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.vlsi.compactmap:compactmap:1.2.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.andrewoma.dexx:dexx-collections:0.2" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.9" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.eureka:eureka-core:1.9.8" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: javax.xml.stream:stax-api:1.0-2" level="project" />
@@ -200,5 +197,18 @@
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.26" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.servo:servo-core:0.12.21" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-zuul-adapter:1.6.3" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-core:1.6.3" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-api-gateway-adapter-common:1.6.3" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-parameter-flow-control:1.6.3" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.4.2" level="project" />
+    <orderEntry type="library" name="Maven: de.codecentric:spring-boot-admin-starter-client:2.1.6" level="project" />
+    <orderEntry type="library" name="Maven: de.codecentric:spring-boot-admin-client:2.1.6" level="project" />
+    <orderEntry type="library" name="Maven: org.jolokia:jolokia-core:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: net.logstash.logback:logstash-logback-encoder:6.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.9" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.9" level="project" />
   </component>
 </module>

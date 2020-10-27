@@ -2,70 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8c3af0-77cd-482c-bf7b-c3f48d657ed9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/filter/ValidateCodeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/mapper/MenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/properties/CloudValidateCodeProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/service/ValidateCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/resources/application-datasource.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/resources/application-mybatis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-auth/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/annotation/EnableCloudLettuceRedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/annotation/IsMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/configure/CloudLettuceRedisConfigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/constant/RegexpConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/entity/system/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/entity/system/SystemUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/entity/system/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/exception/CloudException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/exception/ValidateCodeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/validator/MobileValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/cloud-auth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/cloud-auth.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/CloudAuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/CloudAuthApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/configure/AuthorizationServerConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/configure/AuthorizationServerConfigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/configure/ResourceServerConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/configure/ResourceServerConfigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/configure/SecurityConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/configure/SecurityConfigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/controller/SecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/controller/SecurityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/properties/AuthProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/properties/CloudAuthProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/service/UserDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/src/main/java/pers/liy/service/UserDetailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/src/main/resources/application-redis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/src/main/resources/application-redis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/src/main/resources/cloud-auth.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/src/main/resources/cloud-auth.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/target/classes/application-redis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/target/classes/application-redis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/CloudAuthApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/CloudAuthApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/configure/AuthorizationServerConfigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/configure/AuthorizationServerConfigure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/configure/ResourceServerConfigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/configure/ResourceServerConfigure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/configure/SecurityConfigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/configure/SecurityConfigure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/controller/SecurityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/controller/SecurityController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/service/UserDetailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-auth/target/classes/pers/liy/service/UserDetailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/cloud-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/cloud-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/entity/AuthUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/entity/CloudAuthUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/utils/CloudUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/pers/liy/utils/CloudUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/target/classes/pers/liy/entity/AuthUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/cloud-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/cloud-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server/cloud-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server/cloud-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server/server-system/server-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server/server-system/server-system.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server/server-system/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server/server-system/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server/server-test/server-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server/server-test/server-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +88,7 @@
       <recent name="E:\Learn\JAVA\Cloud-Demo\cloud-gateway\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CloudAuthApplication">
+  <component name="RunManager" selected="Spring Boot.CloudGatewayApplication">
     <configuration name="Whole project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -312,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603778583344</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feature: 添加验证码">
+      <created>1603781837516</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603781837516</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +272,8 @@
     <MESSAGE value="feature: 添加fegin调用" />
     <MESSAGE value="feature: 微服务防护" />
     <MESSAGE value="feature: 跨域处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: 跨域处理" />
+    <MESSAGE value="feature: 添加验证码" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: 添加验证码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="142" key="#Project_Structure" timestamp="1600169261551">
@@ -356,10 +302,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603776817088" />
-    <state x="314" y="0" key="CommitChangelistDialog2" timestamp="1603778582667">
+    <state x="314" y="0" key="CommitChangelistDialog2" timestamp="1603781836296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="314" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603778582667" />
+    <state x="314" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603781836296" />
     <state x="392" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600096715253" />
     <state x="214" y="71" key="DiffContextDialog" timestamp="1602310767316">
       <screen x="0" y="0" width="1536" height="824" />
@@ -370,55 +316,55 @@
     </state>
     <state x="591" y="207" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602303846172" />
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600096526830" />
-    <state width="1492" height="328" key="GridCell.Tab.0.bottom" timestamp="1603781764221">
+    <state width="1492" height="57" key="GridCell.Tab.0.bottom" timestamp="1603782096034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="328" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603781764221" />
+    <state width="1492" height="57" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603782096034" />
     <state width="1877" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
-    <state width="1492" height="328" key="GridCell.Tab.0.center" timestamp="1603781764220">
+    <state width="1492" height="57" key="GridCell.Tab.0.center" timestamp="1603782096034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="328" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603781764220" />
+    <state width="1492" height="57" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603782096034" />
     <state width="1877" height="229" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
-    <state width="1492" height="328" key="GridCell.Tab.0.left" timestamp="1603781764218">
+    <state width="1492" height="57" key="GridCell.Tab.0.left" timestamp="1603782096034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="328" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603781764218" />
+    <state width="1492" height="57" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603782096034" />
     <state width="1877" height="229" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
-    <state width="1492" height="328" key="GridCell.Tab.0.right" timestamp="1603781764221">
+    <state width="1492" height="57" key="GridCell.Tab.0.right" timestamp="1603782096034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="328" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603781764221" />
+    <state width="1492" height="57" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603782096034" />
     <state width="1877" height="229" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
-    <state width="1492" height="328" key="GridCell.Tab.1.bottom" timestamp="1603781764222">
+    <state width="1492" height="57" key="GridCell.Tab.1.bottom" timestamp="1603782096035">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="328" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603781764222" />
+    <state width="1492" height="57" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603782096035" />
     <state width="1877" height="229" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
-    <state width="1492" height="328" key="GridCell.Tab.1.center" timestamp="1603781764221">
+    <state width="1492" height="57" key="GridCell.Tab.1.center" timestamp="1603782096035">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="328" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603781764221" />
+    <state width="1492" height="57" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603782096035" />
     <state width="1877" height="229" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
-    <state width="1492" height="328" key="GridCell.Tab.1.left" timestamp="1603781764221">
+    <state width="1492" height="57" key="GridCell.Tab.1.left" timestamp="1603782096034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="328" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603781764221" />
+    <state width="1492" height="57" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603782096034" />
     <state width="1877" height="229" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
-    <state width="1492" height="328" key="GridCell.Tab.1.right" timestamp="1603781764222">
+    <state width="1492" height="57" key="GridCell.Tab.1.right" timestamp="1603782096035">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="328" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603781764222" />
+    <state width="1492" height="57" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603782096035" />
     <state width="1877" height="229" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600605942787" />
     <state x="352" y="0" key="SettingsEditor" timestamp="1603772627406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="352" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603772627406" />
     <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600096700306" />
-    <state x="442" y="197" key="Vcs.Push.Dialog.v2" timestamp="1603778601860">
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2" timestamp="1603781853161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603778601860" />
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603781853161" />
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600096718686" />
     <state x="430" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1600653529256">
       <screen x="0" y="0" width="1536" height="824" />
