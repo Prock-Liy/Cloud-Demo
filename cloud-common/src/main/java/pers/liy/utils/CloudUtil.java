@@ -1,10 +1,13 @@
 package pers.liy.utils;
 
 import com.alibaba.fastjson.JSONObject;
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import lombok.extern.slf4j.Slf4j;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -43,6 +46,19 @@ public class CloudUtil {
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(value);
         return matcher.matches();
+    }
+
+    /**
+     * 封装前端分页表格所需数据
+     *
+     * @param pageInfo pageInfo
+     * @return Map<String, Object>
+     */
+    public static Map<String, Object> getDataTable(IPage<?> pageInfo) {
+        Map<String, Object> data = new HashMap<>();
+        data.put("rows", pageInfo.getRecords());
+        data.put("total", pageInfo.getTotal());
+        return data;
     }
 
 }

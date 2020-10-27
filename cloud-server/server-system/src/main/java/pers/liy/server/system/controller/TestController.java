@@ -23,7 +23,7 @@ public class TestController {
         return "server-system";
     }
 
-    @GetMapping("user")
+    @GetMapping("currentUser")
     public Principal currentUser(Principal principal) {
         return principal;
     }
