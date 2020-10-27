@@ -1,0 +1,6 @@
+feign:
+  hystrix:
+    enabled: true
+# 配置把SecurityContext对象从你当前主线程传输到Hystrix线程
+hystrix:
+  shareSecurityContext: true

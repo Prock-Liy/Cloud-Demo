@@ -1,6 +1,6 @@
 eureka:
   instance:
-    ## 向Eureka 服务端发送心跳的间隔时间，单位为秒，用于服务续约。这里配置为20秒，即每隔20秒向febs-register发送心跳，表明当前服务没有宕机
+    ## 向Eureka 服务端发送心跳的间隔时间，单位为秒，用于服务续约。这里配置为20秒，即每隔20秒向cloud-register发送心跳，表明当前服务没有宕机
     lease-renewal-interval-in-seconds: 20
   client:
     ## 为true时表示将当前服务注册到Eureak服务端

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Server-Test
+  profiles:
+    include:
+      - eureka
+      - tomcat
+      - security
+      - monitor
+      - feign
+
+  # 关闭多数据源自动装配     exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration

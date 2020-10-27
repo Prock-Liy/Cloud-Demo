@@ -8,7 +8,7 @@ import java.lang.annotation.*;
 /**
  * @Author Prock.Liy
  * @Date 2020/10/10 14:01
- * @Description @Import将FebsAuthExceptionConfigure配置类引入了进来。
+ * @Description @Import将CloudAuthExceptionConfigure配置类引入了进来。
  *
  **/
 @Target({ElementType.TYPE})

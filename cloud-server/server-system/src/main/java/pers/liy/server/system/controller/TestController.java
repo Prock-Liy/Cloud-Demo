@@ -13,9 +13,14 @@ import java.security.Principal;
 @RestController
 public class TestController {
 
+    @GetMapping("hello")
+    public String hello(String name) {
+        return "hello" + name;
+    }
+
     @GetMapping("info")
     public String test(){
-        return "febs-server-system";
+        return "server-system";
     }
 
     @GetMapping("user")

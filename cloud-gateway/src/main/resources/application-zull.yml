@@ -10,6 +10,10 @@ zuul:
       path: /system/**
       serviceId: Server-System
       sensitiveHeaders: "*"
+    test:
+      path: /test/**
+      serviceId: Server-Test
+      sensitiveHeaders: "*"
 
 
   ## 让默认的异常过滤器失效

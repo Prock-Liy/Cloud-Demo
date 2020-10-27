@@ -25,7 +25,7 @@ public class BaseExceptionHandler {
 
     @ExceptionHandler(value = AuthException.class)
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-    public CloudResponse handleFebsAuthException(AuthException e) {
+    public CloudResponse handleCloudAuthException(AuthException e) {
         log.error("系统错误", e);
         return new CloudResponse().message(e.getMessage());
     }

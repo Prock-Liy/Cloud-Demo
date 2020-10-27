@@ -50,7 +50,7 @@ public class SecurityConfigure extends WebSecurityConfigurerAdapter {
     /**
      * 在Eureka.configure.SecurityConfigure类中，我们还重写了WebSecurityConfigurerAdapter类的
      * configure(HttpSecurity http)方法，
-     * 其中requestMatchers().antMatchers("/oauth/**")的含义是：FebsSecurityConfigure安全配置类只对/oauth/开头的请求有效
+     * 其中requestMatchers().antMatchers("/oauth/**")的含义是：CloudSecurityConfigure安全配置类只对/oauth/开头的请求有效
      * @param http
      * @throws Exception
      */

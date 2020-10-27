@@ -17,6 +17,7 @@
 
     <modules>
         <module>server-system</module>
+        <module>server-test</module>
     </modules>
 
     <dependencies>

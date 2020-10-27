@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-gateway" />
+        <module name="cloud-register" />
         <module name="cloud-common" />
         <module name="cloud-auth" />
-        <module name="cloud-gateway" />
         <module name="server-system" />
-        <module name="cloud-register" />
+        <module name="server-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="cloud-register" target="1.8" />
       <module name="cloud-server" target="1.8" />
       <module name="server-system" target="1.8" />
+      <module name="server-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -32,6 +34,7 @@
       <module name="cloud-register" options="-parameters" />
       <module name="cloud-server" options="-parameters" />
       <module name="server-system" options="-parameters" />
+      <module name="server-test" options="-parameters" />
     </option>
   </component>
 </project>

@@ -18,7 +18,7 @@
     </properties>
 
     <dependencies>
-        <!-- 因为通用模块febs-common里已经包含了spring-cloud-starter-oauth2和spring-cloud-starter-security依赖，所以这里无需再次引入 -->
+        <!-- 因为通用模块cloud-common里已经包含了spring-cloud-starter-oauth2和spring-cloud-starter-security依赖，所以这里无需再次引入 -->
         <dependency>
             <groupId>pers.liy</groupId>
             <artifactId>cloud-common</artifactId>
