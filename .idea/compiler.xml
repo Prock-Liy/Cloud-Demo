@@ -9,6 +9,7 @@
         <module name="cloud-gateway" />
         <module name="cloud-register" />
         <module name="cloud-common" />
+        <module name="cloud-monitor-admin" />
         <module name="cloud-auth" />
         <module name="server-system" />
         <module name="server-test" />
@@ -19,6 +20,8 @@
       <module name="cloud-auth" target="1.8" />
       <module name="cloud-common" target="1.8" />
       <module name="cloud-gateway" target="1.8" />
+      <module name="cloud-monitor" target="1.8" />
+      <module name="cloud-monitor-admin" target="1.8" />
       <module name="cloud-register" target="1.8" />
       <module name="cloud-server" target="1.8" />
       <module name="server-system" target="1.8" />
@@ -31,6 +34,7 @@
       <module name="cloud-auth" options="-parameters" />
       <module name="cloud-common" options="-parameters" />
       <module name="cloud-gateway" options="-parameters" />
+      <module name="cloud-monitor-admin" options="-parameters" />
       <module name="cloud-register" options="-parameters" />
       <module name="cloud-server" options="-parameters" />
       <module name="server-system" options="-parameters" />

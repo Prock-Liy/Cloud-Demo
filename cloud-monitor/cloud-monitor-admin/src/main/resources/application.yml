@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Cloud-Monitor-Admin
+  profiles:
+    include:
+      - tomcat
+      - security
+  boot:
+    admin:
+      ui:
+        title: ${spring.application.name}

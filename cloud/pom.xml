@@ -28,6 +28,7 @@
         <module>../cloud-auth</module>
         <module>../cloud-gateway</module>
         <module>../cloud-server</module>
+        <module>../cloud-monitor</module>
     </modules>
 
     <dependencyManagement>

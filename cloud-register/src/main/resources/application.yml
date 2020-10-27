@@ -6,3 +6,4 @@ spring:
       - security
       - eureka
       - tomcat
+      - monitor

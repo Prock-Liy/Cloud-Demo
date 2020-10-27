@@ -6,6 +6,13 @@ spring:
         username: cloud
         password: 123456
 
+# 配置了SBA客户端的名称，描述和版本信息；
+info:
+  app:
+    name: ${spring.application.name}
+    description: "Server-Test测试服务模块"
+    version: "1.0-SNAPSHOT"
+
 management:
   endpoints:
     web:
