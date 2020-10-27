@@ -5,8 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
-import pers.liy.annotation.EnableCloudAuthExceptionHandler;
-import pers.liy.annotation.EnableCloudOauth2FeignClient;
+import pers.liy.annotation.CloudApplication;
 
 /**
  * @Author Prock.Liy
@@ -17,8 +16,7 @@ import pers.liy.annotation.EnableCloudOauth2FeignClient;
 @EnableFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
-@EnableCloudOauth2FeignClient
-@EnableCloudAuthExceptionHandler
+@CloudApplication
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class ServerTestApplication {
 

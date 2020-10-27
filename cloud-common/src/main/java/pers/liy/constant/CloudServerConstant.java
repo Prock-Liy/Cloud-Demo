@@ -1,9 +1,9 @@
-package pers.liy.entity;
+package pers.liy.constant;
 
 /**
  * @Author Prock.Liy
- * @Date 2020/10/27 12:30
- * @Description
+ * @Date 2020/10/10 15:43
+ * @Description 微服务名称常量类
  **/
 public class CloudServerConstant {
 
@@ -13,7 +13,7 @@ public class CloudServerConstant {
     public static final String CLOUD_GATEWAY = "CLOUD-Gateway";
     public static final String CLOUD_REGISTER = "CLOUD-Register";
     public static final String CLOUD_SERVER = "CLOUD-Server";
-    public static final String CLOUD_SERVER_SYSTEM= "Server-System";
-    public static final String CLOUD_SERVER_TEST= "Server-Test";
+    public static final String SERVER_SYSTEM = "Server-System";
+    public static final String SERVER_TEST = "Server-Test";
 
 }

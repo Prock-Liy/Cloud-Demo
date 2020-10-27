@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import pers.liy.annotation.EnableCloudAuthExceptionHandler;
+import pers.liy.annotation.EnableCloudServerProtect;
 
 /**
  * @Author Prock.Liy
@@ -14,8 +15,9 @@ import pers.liy.annotation.EnableCloudAuthExceptionHandler;
  **/
 @EnableDiscoveryClient
 @SpringBootApplication
-@EnableGlobalMethodSecurity(prePostEnabled = true)
+@EnableCloudServerProtect
 @EnableCloudAuthExceptionHandler
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class ServerSystemApplication {
 
     public static void main(String[] args) {

@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import pers.liy.annotation.EnableCloudAuthExceptionHandler;
+import pers.liy.annotation.EnableCloudServerProtect;
 
 /**
  * @Author Prock.Liy
@@ -12,6 +13,7 @@ import pers.liy.annotation.EnableCloudAuthExceptionHandler;
  **/
 @EnableDiscoveryClient
 @SpringBootApplication
+@EnableCloudServerProtect
 @EnableCloudAuthExceptionHandler
 public class CloudAuthApplication {
 
