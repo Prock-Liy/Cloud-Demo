@@ -14,8 +14,7 @@ public class GatewaySecurityConfigure extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.csrf()
-                .and()
+        http.csrf().disable()
                 .authorizeRequests()
                 .antMatchers("/actuator/**").permitAll();
     }

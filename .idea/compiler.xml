@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-gateway" />
         <module name="cloud-register" />
+        <module name="cloud-gateway" />
+        <module name="server-system" />
         <module name="cloud-common" />
         <module name="cloud-monitor-admin" />
         <module name="cloud-auth" />
-        <module name="server-system" />
         <module name="server-test" />
       </profile>
     </annotationProcessing>

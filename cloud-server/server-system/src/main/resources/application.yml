@@ -9,3 +9,5 @@ spring:
       - datasource
       - mybatis
       - monitor
+      - rabbitmq
+      - zipkin

@@ -8,6 +8,8 @@ spring:
       - security
       - monitor
       - feign
+      - rabbitmq
+      - zipkin
 
   # 关闭多数据源自动装配
   autoconfigure:
