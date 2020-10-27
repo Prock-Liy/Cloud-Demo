@@ -6,3 +6,5 @@ spring:
       - eureka
       - tomcat
       - zull
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration

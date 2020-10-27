@@ -1,0 +1,11 @@
+mybatis-plus:
+  ## 指定别名扫描路径 ，该路径下的实体类将自动配置别名，默认为类名首字母小写。配置别名后，便可以直接在MyBatis XML文件里使用了
+  type-aliases-package: com.pers.common.entity.system
+  ## 指定MyBatis XML文件路径
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    ## 指定为null，否则再插入空值时会报“无效的列类型”错误
+    jdbc-type-for-null: null
+  global-config:
+    ## 设置为false关闭MyBatis Plus Banner打印
+    banner: false

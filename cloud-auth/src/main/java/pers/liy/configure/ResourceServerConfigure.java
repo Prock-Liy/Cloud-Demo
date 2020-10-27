@@ -1,5 +1,7 @@
 package pers.liy.configure;
 
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
@@ -7,6 +9,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.R
 import org.springframework.security.oauth2.config.annotation.web.configurers.ResourceServerSecurityConfigurer;
 import pers.liy.handler.CloudAccessDeniedHandler;
 import pers.liy.handler.CloudAuthExceptionEntryPoint;
+import pers.liy.properties.CloudAuthProperties;
 
 import javax.annotation.Resource;
 
@@ -24,6 +27,8 @@ public class ResourceServerConfigure extends ResourceServerConfigurerAdapter{
     private CloudAccessDeniedHandler accessDeniedHandler;
     @Resource
     private CloudAuthExceptionEntryPoint exceptionEntryPoint;
+    @Resource
+    private CloudAuthProperties properties;
 
     /**
      * 通过requestMatchers().antMatchers("/**")的配置表明该安全配置对所有请求都生效。
@@ -33,11 +38,15 @@ public class ResourceServerConfigure extends ResourceServerConfigurerAdapter{
      */
     @Override
     public void configure(HttpSecurity http) throws Exception {
+        String[] anonUrls = StringUtils.splitByWholeSeparatorPreserveAllTokens(properties.getAnonUrl(), ",");
+
         http.csrf().disable()
                 .requestMatchers().antMatchers("/**")
                 .and()
                 .authorizeRequests()
-                .antMatchers("/**").authenticated();
+                .antMatchers(anonUrls).permitAll()
+                .antMatchers("/**").authenticated()
+                .and().httpBasic();
     }
 
     @Override

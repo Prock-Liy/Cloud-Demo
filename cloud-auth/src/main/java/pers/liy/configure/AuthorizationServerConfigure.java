@@ -16,7 +16,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 import org.springframework.security.oauth2.provider.token.DefaultTokenServices;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.redis.RedisTokenStore;
-import pers.liy.properties.AuthProperties;
+import pers.liy.properties.CloudAuthProperties;
 import pers.liy.properties.ClientsProperties;
 import pers.liy.service.UserDetailService;
 import pers.liy.translator.CloudWebResponseExceptionTranslator;
@@ -41,7 +41,7 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
     @Resource
     private PasswordEncoder passwordEncoder;
     @Resource
-    private AuthProperties authProperties;
+    private CloudAuthProperties authProperties;
     @Resource
     private CloudWebResponseExceptionTranslator exceptionTranslator;
 

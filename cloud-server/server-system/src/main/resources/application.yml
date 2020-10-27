@@ -6,3 +6,6 @@ spring:
       - eureka
       - tomcat
       - security
+      -
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration

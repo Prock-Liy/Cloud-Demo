@@ -6,3 +6,5 @@ spring:
       - eureka
       - tomcat
       - redis
+      - datasource
+      - mybatis
