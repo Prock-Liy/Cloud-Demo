@@ -1,6 +1,6 @@
 spring:
   rabbitmq:
-    host: localhost
+    host: ${rabbitmq.url}
     # 5672是AMPQ端口
     port: 5672
     username: cloud

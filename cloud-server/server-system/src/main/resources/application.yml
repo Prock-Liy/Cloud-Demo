@@ -11,3 +11,6 @@ spring:
       - monitor
       - rabbitmq
       - zipkin
+
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration

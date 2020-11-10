@@ -12,4 +12,4 @@ eureka:
     ## 默认值为30秒，即每30秒去Eureka服务端上获取服务并缓存，这里指定为3秒的原因是方便开发时测试，实际可以指定为默认值即可
     registry-fetch-interval-seconds: 3
     serviceUrl:
-      defaultZone: http://cloud:123456@localhost:8001/register/eureka/
+      defaultZone: http://cloud:123456@${cloud-register}:8001/register/eureka/

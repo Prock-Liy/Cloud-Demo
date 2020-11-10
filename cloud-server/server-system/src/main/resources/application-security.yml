@@ -5,4 +5,4 @@ security:
       ## 路径为http://localhost:8301/auth/user，通过微服务网关，该请求将被转发到http://localhost:8101/user。该配置的作用主要有两个：
       # 1.到认证服务器里校验当前请求头中的令牌是否为合法的令牌；
       # 2.通过当前令牌获取对应的用户信息。
-      user-info-uri: http://localhost:8301/auth/user
+      user-info-uri: http://${cloud-gateway}:8301/auth/user

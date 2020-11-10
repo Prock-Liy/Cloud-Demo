@@ -1,0 +1,1 @@
+mysql.url=127.0.0.1;redis.url=127.0.0.1;rabbitmq.url=127.0.0.1;cloud-gateway=127.0.0.1;cloud-monitor-admin=127.0.0.1;cloud-register=127.0.0.1

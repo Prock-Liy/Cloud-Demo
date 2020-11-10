@@ -7,4 +7,4 @@ eureka:
     instance-info-replication-interval-seconds: 30
     registry-fetch-interval-seconds: 3
     serviceUrl:
-      defaultZone: http://cloud:123456@localhost:8001/register/eureka/
+      defaultZone: http://cloud:123456@${cloud-register}:8001/register/eureka/
