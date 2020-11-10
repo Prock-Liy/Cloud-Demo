@@ -16,6 +16,8 @@ import pers.liy.utils.CloudUtil;
 import javax.annotation.Resource;
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -75,4 +77,24 @@ public class UserController {
             throw new CloudException(message);
         }
     }
+
+//    @GetMapping("index")
+//    public CloudException index() {
+//        Map<String, Object> data = new HashMap<>(5);
+//        // 获取系统访问记录
+//        Long totalVisitCount = loginLogService.findTotalVisitCount();
+//        data.put("totalVisitCount", totalVisitCount);
+//        Long todayVisitCount = loginLogService.findTodayVisitCount();
+//        data.put("todayVisitCount", todayVisitCount);
+//        Long todayIp = loginLogService.findTodayIp();
+//        data.put("todayIp", todayIp);
+//        // 获取近期系统访问记录
+//        List<Map<String, Object>> lastTenVisitCount = loginLogService.findLastTenDaysVisitCount(null);
+//        data.put("lastTenVisitCount", lastTenVisitCount);
+//        SystemUser param = new SystemUser();
+//        param.setUsername(CloundUtil.getCurrentUsername());
+//        List<Map<String, Object>> lastTenUserVisitCount = loginLogService.findLastTenDaysVisitCount(param);
+//        data.put("lastTenUserVisitCount", lastTenUserVisitCount);
+//        return new CloudException().data(data);
+//    }
 }
