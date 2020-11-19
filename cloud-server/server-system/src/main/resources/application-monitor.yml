@@ -2,7 +2,7 @@ spring:
   boot:
     admin:
       client:
-        url: http://${febs-monitor-admin}:8401
+        url: http://${cloud-monitor-admin}:8401
         username: cloud
         password: 123456
 

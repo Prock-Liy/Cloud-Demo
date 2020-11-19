@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: localhost
+    hostname: ${cloud-register}
   client:
     ## 表示是否将服务注册到Eureka服务端，由于我们这里是单节点的Eureka服务端，所以这里指定false
     register-with-eureka: false

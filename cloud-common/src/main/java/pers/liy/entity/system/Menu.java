@@ -15,7 +15,7 @@ import java.util.Date;
  * @Description 菜单表
  **/
 @Data
-@TableName("menu")
+@TableName("t_menu")
 public class Menu implements Serializable {
 
     private static final long serialVersionUID = 7187628714679791771L;

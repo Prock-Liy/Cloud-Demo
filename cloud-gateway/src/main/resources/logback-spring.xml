@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true" scanPeriod="60 seconds" debug="false">
-    <contextName>cloud</contextName>
+    <contextName>febs</contextName>
     <springProperty scope="context" name="springAppName" source="spring.application.name"/>
-    <property name="log.path" value="log/cloud-auth" />
+    <property name="log.path" value="log/cloud-gateway" />
     <property name="log.maxHistory" value="15" />
     <property name="log.colorPattern" value="%magenta(%d{yyyy-MM-dd HH:mm:ss}) %highlight(%-5level) %boldCyan([${springAppName:-},%X{X-B3-TraceId:-},%X{X-B3-SpanId:-},%X{X-Span-Export:-}]) %yellow(%thread) %green(%logger) %msg%n"/>
     <property name="log.pattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5level [${springAppName:-},%X{X-B3-TraceId:-},%X{X-B3-SpanId:-},%X{X-Span-Export:-}] %thread %logger %msg%n"/>
@@ -46,7 +46,7 @@
 
     <!--输出到 logstash的 appender-->
     <appender name="logstash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
-        <destination>192.168.33.13:4560</destination>
+        <destination>192.168.33.10:4560</destination>
         <encoder charset="UTF-8" class="net.logstash.logback.encoder.LogstashEncoder"/>
     </appender>
 

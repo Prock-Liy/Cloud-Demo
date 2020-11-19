@@ -19,7 +19,7 @@ import java.util.Date;
  * @Description  系统用户表
  **/
 @Data
-@TableName("user")
+@TableName("t_user")
 public class SystemUser implements Serializable {
 
     private static final long serialVersionUID = -4352868070794165001L;
