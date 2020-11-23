@@ -22,7 +22,6 @@ import pers.liy.service.UserDetailService;
 import pers.liy.translator.CloudWebResponseExceptionTranslator;
 
 import javax.annotation.Resource;
-import javax.sql.DataSource;
 import java.util.UUID;
 
 /**
@@ -46,8 +45,8 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
     private CloudAuthProperties authProperties;
     @Resource
     private CloudWebResponseExceptionTranslator exceptionTranslator;
-    @Resource
-    private DataSource dataSource;
+//    @Resource
+//    private DataSource dataSource;
 
     /**
      * 从配置文件中读取校验类型，判断client、secret不能为空
