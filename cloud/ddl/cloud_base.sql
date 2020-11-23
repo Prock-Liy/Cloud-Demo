@@ -1,21 +1,39 @@
 /*
  Navicat MySQL Data Transfer
 
- Source Server         : 127.0.0.1
+ Source Server         : docker_192.168.33.10
  Source Server Type    : MySQL
- Source Server Version : 50719
- Source Host           : localhost:3306
+ Source Server Version : 50724
+ Source Host           : 192.168.33.10:3306
  Source Schema         : cloud_base
 
  Target Server Type    : MySQL
- Target Server Version : 50719
+ Target Server Version : 50724
  File Encoding         : 65001
 
- Date: 19/11/2020 23:49:34
+ Date: 23/11/2020 16:20:43
 */
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
+
+-- ----------------------------
+-- Table structure for oauth_access_token
+-- ----------------------------
+DROP TABLE IF EXISTS `oauth_access_token`;
+CREATE TABLE `oauth_access_token`  (
+  `token_id` varchar(256) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
+  `token` blob NULL,
+  `authentication_id` varchar(256) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
+  `user_name` varchar(256) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
+  `client_id` varchar(256) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
+  `authentication` blob NULL,
+  `refresh_token` varchar(256) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL
+) ENGINE = InnoDB CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of oauth_access_token
+-- ----------------------------
 
 -- ----------------------------
 -- Table structure for t_dept

@@ -16,12 +16,14 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 import org.springframework.security.oauth2.provider.token.DefaultTokenServices;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.redis.RedisTokenStore;
-import pers.liy.properties.CloudAuthProperties;
 import pers.liy.properties.ClientsProperties;
+import pers.liy.properties.CloudAuthProperties;
 import pers.liy.service.UserDetailService;
 import pers.liy.translator.CloudWebResponseExceptionTranslator;
 
 import javax.annotation.Resource;
+import javax.sql.DataSource;
+import java.util.UUID;
 
 /**
  * @Author Prock.Liy
@@ -44,6 +46,8 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
     private CloudAuthProperties authProperties;
     @Resource
     private CloudWebResponseExceptionTranslator exceptionTranslator;
+    @Resource
+    private DataSource dataSource;
 
     /**
      * 从配置文件中读取校验类型，判断client、secret不能为空
@@ -90,13 +94,21 @@ public class AuthorizationServerConfigure extends AuthorizationServerConfigurerA
     }
 
     /**
-     * tokenStore使用的是RedisTokenStore，认证服务器生成的令牌将被存储到Redis
+     * tokenStore使用的是RedisTokenStore，认证服务器生成的令牌将被存储到Redis  RedisTokenStore(redisConnectionFactory)
+     * tokenStore使用的是JdbcTokenStore，认证服务器生成的令牌将被存储到数据库中
      *
      * @return TokenStore
+     * @Bean Jdbc存储Token方式
+     * public TokenStore tokenStore() {
+     * return new JdbcTokenStore(dataSource);
+     * }
      */
     @Bean
     public TokenStore tokenStore() {
-        return new RedisTokenStore(redisConnectionFactory);
+        RedisTokenStore redisTokenStore = new RedisTokenStore(redisConnectionFactory);
+        // 解决每次生成的 token都一样的问题
+        redisTokenStore.setAuthenticationKeyGenerator(oAuth2Authentication -> UUID.randomUUID().toString());
+        return redisTokenStore;
     }
 
     /**

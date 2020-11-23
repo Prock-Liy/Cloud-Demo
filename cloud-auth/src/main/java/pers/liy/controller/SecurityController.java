@@ -40,7 +40,7 @@ public class SecurityController {
      * @return Response
      * @throws AuthException
      */
-    @DeleteMapping("sigout")
+    @DeleteMapping("signout")
     public CloudResponse signout(HttpServletRequest request) throws AuthException {
         String authorization = request.getHeader("Authorization");
         String token = StringUtils.replace(authorization, "bearer ", "");
