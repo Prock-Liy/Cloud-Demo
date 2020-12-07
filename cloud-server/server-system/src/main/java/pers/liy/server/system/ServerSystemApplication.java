@@ -3,12 +3,9 @@ package pers.liy.server.system;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import pers.liy.annotation.CloudApplication;
-import pers.liy.annotation.EnableCloudAuthExceptionHandler;
-import pers.liy.annotation.EnableCloudServerProtect;
 
 /**
  * @Author Prock.Liy
@@ -17,7 +14,6 @@ import pers.liy.annotation.EnableCloudServerProtect;
  * @EnableGlobalMethodSecurity(prePostEnabled = true)注解，表示开启Spring Cloud Security权限注解
  **/
 @CloudApplication
-@EnableDiscoveryClient
 @SpringBootApplication
 @EnableTransactionManagement
 @MapperScan("pers.liy.server.system.mapper")

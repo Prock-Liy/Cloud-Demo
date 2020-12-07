@@ -13,10 +13,6 @@
     <name>Cloud-Auth</name>
     <description>认证服务-未设置白名单的所有请求，都需认证</description>
 
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
-
     <dependencies>
         <!-- 因为通用模块cloud-common里已经包含了spring-cloud-starter-oauth2和spring-cloud-starter-security依赖，所以这里无需再次引入 -->
         <dependency>

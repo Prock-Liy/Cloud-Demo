@@ -58,6 +58,17 @@
             <artifactId>sentinel-spring-cloud-gateway-adapter</artifactId>
             <version>1.6.3</version>
         </dependency>
+        <!--        覆盖默认sentinel的版本-->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-core</artifactId>
+            <version>1.6.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-parameter-flow-control</artifactId>
+            <version>1.6.3</version>
+        </dependency>
         <!--        SBA-->
         <dependency>
             <groupId>de.codecentric</groupId>

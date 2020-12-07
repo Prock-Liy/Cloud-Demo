@@ -1,1 +1,5 @@
-mysql.url=127.0.0.1;redis.url=127.0.0.1;rabbitmq.url=127.0.0.1;cloud-gateway=127.0.0.1;cloud-monitor-admin=127.0.0.1;cloud-register=127.0.0.1
+cloud-auth: mysql.url=127.0.0.1;redis.url=127.0.0.1;nacos.url=127.0.0.1;rabbitmq.url=127.0.0.1;cloud-gateway=127.0.0.1;cloud-monitor-admin=127.0.0.1
+cloud-gateway:  nacos.url=127.0.0.1; cloud-monitor-admin=127.0.0.1
+cloud-monitor-admin:  nacos.url=127.0.0.1
+server-system: mysql.url=127.0.0.1; redis.url=127.0.0.1; nacos.url=127.0.0.1; rabbitmq.url=127.0.0.1; cloud-monitor-admin=127.0.0.1;cloud-gateway=127.0.0.1
+server-test:  nacos.url=127.0.0.1; rabbitmq.url=127.0.0.1; cloud-monitor-admin=127.0.0.1;cloud-gateway=127.0.0.1

@@ -2,7 +2,6 @@ package pers.liy.server.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import pers.liy.annotation.CloudApplication;
@@ -14,7 +13,6 @@ import pers.liy.annotation.CloudApplication;
  * @EnableGlobalMethodSecurity(prePostEnabled = true)注解，表示开启Spring Cloud Security权限注
  **/
 @EnableFeignClients
-@EnableDiscoveryClient
 @SpringBootApplication
 @CloudApplication
 @EnableGlobalMethodSecurity(prePostEnabled = true)

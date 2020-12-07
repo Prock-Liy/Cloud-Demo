@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: Server-System
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${nacos.url}:8001
+      config:
+        server-addr: ${nacos.url}:8001
+        # 加载多配置文件
+        ext-config:
+          - data-id: server-system.yaml
+            group: local
+            refresh: true
+          - data-id: cloud-monitor.yaml
+            group: local
+            refresh: true
+          - data-id: cloud-mysql.yaml
+            group: local
+            refresh: true
+          - data-id: cloud-mybatis.yaml
+            group: local
+            refresh: true
+          - data-id: cloud-security.yaml
+            group: local
+            refresh: true
+          - data-id: cloud-rabbitmq.yaml
+            group: local
+            refresh: true
+          - data-id: cloud-zipkin.yaml
+            group: local
+            refresh: true
+          - data-id: cloud-logging.yaml
+            group: local
+            refresh: true
+        # 单个配置文件加载
+        # prefix: cloud-auth
+        file-extension: yaml

@@ -1,5 +1,0 @@
-spring:
-  security:
-    user:
-      name: cloud
-      password: 123456
